@@ -2,7 +2,7 @@
 
 # What ?
 
-This plugin remove ASLR from PE files that are being currently debugged by [x64dbg](https://x64dbg.com/) by copying and patching the new file.
+This plugin remove ASLR from PE files that are being currently debugged in [x64dbg](https://x64dbg.com/) by copying and patching the new file.
 
 
 # Why ?
