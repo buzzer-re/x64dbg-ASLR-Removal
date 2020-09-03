@@ -26,7 +26,7 @@ std::string removeASLR() {
     bool moduleOk = Module::GetMainModuleInfo(&mainModule);
 
     if (!moduleOk) {
-        return "Nothing is being debugged!";
+        return "Nothing is being debugged !";
     }
 
     std::string newFileName = mainModule.path;
