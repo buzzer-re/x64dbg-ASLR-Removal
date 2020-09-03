@@ -1,4 +1,4 @@
-# x64dbg-ASRL-Removal
+# x64dbg ASLR Removal
 
 # What ?
 
@@ -45,7 +45,7 @@ to disable ASLR before the debugger session start.
 
 
 * [@merces](https://github.com/merces) for the core idea of this plugin
-* [x64dbg](https://x64dbg.com/) dev team for clarify a lot of our doubts
+* [x64dbg](https://github.com/x64dbg) dev team for clarify a lot of our doubts
 
 
 Thanks.
