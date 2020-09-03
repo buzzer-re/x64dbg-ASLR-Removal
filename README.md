@@ -39,7 +39,7 @@ ASLR - Address space layout randomization, it's a security feature that randomiz
 
 
 
-The initial idea was to be able to do that before the process start and not modify the binary itself, but this unfortunately it's not possible from the x64dbg plugin developement design. A future approach is to hook **CreateProcess** call from [ TitanEngine](https://github.com/x64dbg/TitanEngine)(x64dbg engine)
+The initial idea was to be able to do that before the process start and not modify the binary itself, but this unfortunately it's not possible from the x64dbg plugin development design. A future approach is to hook **CreateProcess** call from [ TitanEngine](https://github.com/x64dbg/TitanEngine)(x64dbg engine)
 to disable ASLR before the debugger session start.
 ## Special thanks
 
