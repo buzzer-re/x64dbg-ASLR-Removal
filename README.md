@@ -1,5 +1,8 @@
 # x64dbg ASLR Removal
 
+
+## ***Deprecated, the latest versions of x64dbg already support this by just checking the box in the `Options > Preferences > Engine` tab*** 
+
 # What ?
 
 This plugin remove ASLR from PE files that are being currently debugged in [x64dbg](https://x64dbg.com/) by copying and patching the new file.
